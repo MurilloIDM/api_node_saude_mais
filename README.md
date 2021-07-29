@@ -1,9 +1,9 @@
 <p>Projeto criado com o intuito de revisar alguns conceitos ligados ao desenvolvimento de APIs em Node.js.</p>
 
 # Tasks
-<p>[ ] Organização da Estrutura</p>
-<p>[x] Conexão com o Banco de Dados (PostgreSQL)</p>
-<p>[x] Criação da(s) migration(s)</p>
+<p>[X] Organização da Estrutura</p>
+<p>[X] Conexão com o Banco de Dados (PostgreSQL)</p>
+<p>[X] Criação da(s) migration(s)</p>
 <p>[ ] Criação de um CRUD para usuário</p>
 <p>[ ] Criação de um serviço para retornar o IMC do usuário</p>
 
