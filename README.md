@@ -2,8 +2,8 @@
 
 # Tasks
 <p>[ ] Organização da Estrutura</p>
-<p>[ ] Conexão com o Banco de Dados (PostgreSQL)</p>
-<p>[ ] Criação da(s) migration(s)</p>
+<p>[x] Conexão com o Banco de Dados (PostgreSQL)</p>
+<p>[x] Criação da(s) migration(s)</p>
 <p>[ ] Criação de um CRUD para usuário</p>
 <p>[ ] Criação de um serviço para retornar o IMC do usuário</p>
 

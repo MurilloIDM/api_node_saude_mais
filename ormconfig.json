@@ -5,7 +5,7 @@
   "username": "postgres",
   "password": "toor",
   "database": "db_saude_mais",
-  "migrations": [".src/database/migrations/*.ts"],
+  "migrations": ["./src/database/migrations/*.ts"],
   "entities": ["./src/modules/**/entities/*.ts"],
   "cli": {
     "migrationsDir": "./src/database/migrations"
