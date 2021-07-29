@@ -11,6 +11,7 @@
 <ul>
   <li>Nome</li>
   <li>Peso</li>
+  <li>Altura</li>
   <li>Data de Criação</li>
   <li>Data de Nascimento</li>
   <li>imc (null por padrão)</li>
