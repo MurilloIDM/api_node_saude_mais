@@ -1,7 +1,7 @@
-import { Column, Entity, PrimaryColumn } from "typeorm";
+import { Column, CreateDateColumn, Entity, PrimaryColumn } from "typeorm";
 import { v4 as uuidV4 } from "uuid";
 
-@Entity("user")
+@Entity("user_plus")
 class User {
   @PrimaryColumn()
   id: string;
@@ -18,10 +18,11 @@ class User {
   @Column()
   imc: string;
 
-  @Column("birth_date")
-  birthDate: Date;
+  @Column({ name: "birth_date", type: "date" })
+  birthDate: string;
 
-  @Column("created_at")
+  @CreateDateColumn()
+  @Column({ name: "created_at" })
   createdAt: Date;
 
   constructor() {

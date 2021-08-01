@@ -4,9 +4,9 @@
   "host": "localhost",
   "username": "postgres",
   "password": "toor",
-  "database": "db_saude_mais",
+  "database": "saude_mais",
   "migrations": ["./src/database/migrations/*.ts"],
-  "entities": ["./src/modules/**/entities/*.ts"],
+  "entities": ["./src/entities/*.ts"],
   "cli": {
     "migrationsDir": "./src/database/migrations"
   }
