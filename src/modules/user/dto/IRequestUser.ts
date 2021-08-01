@@ -1,8 +1,8 @@
-class RequestUser {
+interface IRequestUser {
   name: string;
   weight: number;
   height: number;
   birthDate: Date;
 }
 
-export { RequestUser };
+export { IRequestUser };
