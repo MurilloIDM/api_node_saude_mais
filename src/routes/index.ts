@@ -4,6 +4,6 @@ import routerUser from "./User";
 
 const router = Router();
 
-router.use("/user", routerUser);
+router.use("/users", routerUser);
 
 export { router };
