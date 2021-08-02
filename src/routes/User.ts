@@ -1,6 +1,7 @@
 import { Router } from "express";
 
 import CreateUserController from "../modules/user/useCases/createUser";
+import DeleteUserController from "../modules/user/useCases/deleteUser";
 import FindByIdUserController from "../modules/user/useCases/findByIdUser";
 import ListUsersController from "../modules/user/useCases/listUsers";
 
@@ -16,6 +17,10 @@ router.get("/", (request, response) => {
 
 router.get("/:id", (request, response) => {
   return FindByIdUserController().handle(request, response);
+});
+
+router.delete("/:id", (request, response) => {
+  return DeleteUserController().handle(request, response);
 });
 
 export default router;
