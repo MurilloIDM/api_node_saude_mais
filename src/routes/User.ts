@@ -4,11 +4,16 @@ import CreateUserController from "../modules/user/useCases/createUser";
 import DeleteUserController from "../modules/user/useCases/deleteUser";
 import FindByIdUserController from "../modules/user/useCases/findByIdUser";
 import ListUsersController from "../modules/user/useCases/listUsers";
+import UpdateUserController from "../modules/user/useCases/updateUser";
 
 const router = Router();
 
 router.post("/", (request, response) => {
   return CreateUserController().handle(request, response);
+});
+
+router.put("/:id", (request, response) => {
+  return UpdateUserController().handle(request, response);
 });
 
 router.get("/", (request, response) => {

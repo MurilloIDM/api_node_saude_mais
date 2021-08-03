@@ -2,7 +2,7 @@ interface IRequestUser {
   name: string;
   weight: number;
   height: number;
-  birthDate: Date;
+  birthDate: string;
 }
 
 export { IRequestUser };
